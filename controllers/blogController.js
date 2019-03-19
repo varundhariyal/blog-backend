@@ -256,7 +256,7 @@ let createBlog = (req, res) => {
                     bodyHtml: req.body.blogBody,
                     isPublished: true,
                     category: req.body.category,
-                    author: req.user.fullName,
+                    author: req.body.author,
                     created: today,
                     lastModified: today
                 }) // end new blog model
