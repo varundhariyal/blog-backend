@@ -337,11 +337,6 @@ let increaseBlogView = (req, res) => {
         }
     }
 
- 
-    
-
-
-
 module.exports = {
 
     getAllBlog: getAllBlog,
